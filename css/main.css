@@ -1,0 +1,122 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(https://giffiles.alphacoders.com/214/214112.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+body:before{
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: linear-gradient(90deg, #52c4df, #ad55c1);
+
+    opacity: 0.5;
+    z-index: -1;
+
+}
+.login-box{
+    width: 400px;
+    height: 625px;
+    background-image: url(../img/Fondo\ De\ Llamarada\ De\ Textura\ De\ Grano\ Mate\ Completo\ Negro.jpg);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+    border-radius: 20px;
+    
+    
+}
+
+.login-box .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50%  - 50px);
+}
+.login-box h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.login-box label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+
+}
+
+.login-box input{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.login-box input[type="text"],
+.login-box input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px
+}
+
+#buton{
+    border: none;
+    outline: none;
+    height: 50px;
+    background: #b80f22;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 15px;
+    width: 160px;
+    margin-top: 20px;
+}
+#buton:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+  }
+  
+  .login-box .b {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+    text-align: center;
+  }
+  
+  .login-box .b:hover {
+    color: #fff;
+  }
+  div{
+      margin-top: 15px;
+      margin-left: 10px;
+  }
+
+  .re{
+      background-color: rgb(248, 243, 252);
+      width: 60px;
+      height: 60px;
+      border-radius: 9px;
+      
+  }
+
+  .re:hover{
+      background-color: hsl(45, 100%, 51%);
+      cursor: pointer;
+  }

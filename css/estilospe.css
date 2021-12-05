@@ -1,0 +1,35 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/0c/bf/2f/0cbf2f5c3fb37d033c0bc791ae196dbb.gif) ;
+}
+
+.mortal{
+    text-align: center;
+    color: white;
+}
+
+.mor{
+    color: white;
+    margin-top: 30px;
+}
+
+.mor-ref{
+    margin-top: 50px;
+}
+
+
+
+h1{
+    font-size: 100px;
+}
+
+#blogvision .boton{
+    background-color: red;
+    color: white;
+    font-size: medium;
+}
+
+#blogvision .boton:hover{
+    cursor: pointer;
+    background-color: yellow;
+    color: black;
+}
